@@ -1,0 +1,36 @@
+{
+    "name": "winapp-automation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "test": "node bin/test.js",
+        "xaml": "cucumber-js features/XAML.feature --require stepdefinitions/**/*.js --require-module @babel/register --require-module @babel/polyfill -f json:testresults/out.json -f progress --tags @xaml --unhandled-rejections=strict"
+    },
+    "author": "Venkat Rao",
+    "license": "ISC",
+    "dependencies": {
+        "appium": "^1.16.0",
+        "appium-windows-driver": "^1.8.0",
+        "babel-preset-env": "^1.7.0",
+        "cucumber": "^6.0.5",
+        "iedriver": "^3.14.1",
+        "moment": "^2.24.0",
+        "selenium-appium": "^0.0.15",
+        "selenium-webdriver": "^4.0.0-alpha.7",
+        "webdriver": "git+https://github.com/react-native-windows/webdriver.git",
+        "webdriverio": "^5.19.0",
+        "chai": "^4.2.0",
+        "cucumber-html-reporter": "^5.2.0",
+        "oracledb": "^4.2.0",
+        "shelljs": "^0.8.3",
+        "chromedriver": "^81.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.8.7",
+        "@babel/polyfill": "^7.8.7",
+        "@babel/preset-env": "^7.8.7",
+        "@babel/register": "^7.8.6",
+        "babel-cli": "^6.26.0"
+    }
+}
