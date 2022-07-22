@@ -1,6 +1,6 @@
 # WindowsAppAutomation
 
-A sample repo to execute UI automation for Windows based application
+A sample repo to execute UI automation for Windows based application using NodeJs.
 
 ## To execute (Windows 10 only)
 1. Clone this repo
